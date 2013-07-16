@@ -36,32 +36,12 @@
      
 		 
 		 
-	 <build>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>selenium-maven-plugin</artifactId>
-				<version>2.3</version>
-			<executions>  
-      <execution>  
-       <phase>mainTest</phase>  
-       <goals>  
-        <goal>java</goal>  
-       </goals>  
-       <configuration>  
-        <mainClass>main.mainTest</mainClass>  
-       </configuration>  
-      </execution>  
-     </executions>  
-
-			</plugin>
-		</plugins>
-	 </build>
-
-	<properties>
-		<suiteFile>src/test/java/example/testing.xml</suiteFile>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+	<build>		<plugins>			<plugin>				<groupId>org.codehaus.mojo</groupId>				<artifactId>selenium-maven-plugin</artifactId>				<version>2.3</version>			</plugin>		</plugins>	 </build>
+			
+			<properties>		
+				<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>	
+	
+			</properties>
 	
 
 
